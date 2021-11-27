@@ -69,7 +69,7 @@ async def connect(bot: DonLee_Robot, update):
         pass
     
     except Exception:
-        await update.reply_text("Try Again")
+        await update.reply_text(f"Hello {update.from_user.mention}, \n• Try Again\n• Check Your Database\n• Chenge Your Database")
         return
     
     try:
